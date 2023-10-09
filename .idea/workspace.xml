@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5272c308-7801-4414-adcf-0f1f6cd132cd" name="Changes" comment="реализованы функции конвертации длины">
-      <change afterPath="$PROJECT_DIR$/src/test/WeightConverterTest.kt" afterDir="false" />
+    <list default="true" id="5272c308-7801-4414-adcf-0f1f6cd132cd" name="Changes" comment="реализованы функции конвертации массы">
+      <change afterPath="$PROJECT_DIR$/src/test/TemperatureConverterTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LengthConverterTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LengthConverterTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696837063401</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлен тест для конвертации массы, исправлены ошибки">
+      <created>1696838406967</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696838406967</updated>
+    </task>
+    <task id="LOCAL-00004" summary="реализованы функции конвертации массы">
+      <created>1696838656610</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696838656610</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +94,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавлен тест для конвертации длины" />
     <MESSAGE value="реализованы функции конвертации длины" />
-    <option name="LAST_COMMIT_MESSAGE" value="реализованы функции конвертации длины" />
+    <MESSAGE value="добавлен тест для конвертации массы, исправлены ошибки" />
+    <MESSAGE value="реализованы функции конвертации массы" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализованы функции конвертации массы" />
   </component>
 </project>
