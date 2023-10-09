@@ -13,6 +13,22 @@ fun metersToArshins(meters: Double): Double {
 fun arshinsToMeters(arshins: Double): Double {
     return arshins / 0.71
 }
+
+fun kilogramsToPounds(kilograms: Double): Double {
+    return kilograms * 2.20462
+}
+
+fun poundsToKilograms(pounds: Double): Double {
+    return pounds / 2.20462
+}
+
+fun kilogramsToPoods(kilograms: Double): Double {
+    return kilograms * 0.061048
+}
+
+fun poodsToKilograms(poods: Double): Double {
+    return poods / 0.061048
+}
 fun main(args: Array<String>) {
 
     println("Hello World!")
