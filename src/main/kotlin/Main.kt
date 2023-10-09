@@ -7,7 +7,7 @@ fun metersToFeet(meters: Double): Double {
 }
 
 fun metersToArshins(meters: Double): Double {
-    return meters * 0.71 //
+    return meters * 0.71
 }
 
 fun arshinsToMeters(arshins: Double): Double {

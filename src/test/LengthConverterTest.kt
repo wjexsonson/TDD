@@ -7,15 +7,12 @@ class LengthConverterTest {
     fun testFeetToMeters() {
         val feet = 5.0
         val expectedMeters = 1.524
-        val expectedMeters = 1.524
         assertEquals(expectedMeters, feetToMeters(feet), 0.001)
     }
 
     @Test
     fun testNegativeFeetToMeters() {
         val feet = -5.0
-        val expectedMeters = -1.524
-        assertEquals(expectedMeters, feetToMeters(feet), 0.001)
         val expectedMeters = -1.524
         assert(feetToMeters(feet) == null)
     }
@@ -29,9 +26,9 @@ class LengthConverterTest {
 
     @Test
     fun testNegativeMetersToFeet() {
-        val feet = -5.0
-        val expectedMeters = -1.524
-        assert(feetToMeters(feet) == null)
+        val meters = -1.524
+        val expectedFeets = -5.0
+        assert(metersToFeet(meters) == null)
     }
 
     @Test
@@ -43,8 +40,8 @@ class LengthConverterTest {
 
     @Test
     fun testNegativeArshinsToMeters() {
-        val arshins = 1.0
-        val expectedMeters = 0.71
+        val arshins = -1.0
+        val expectedMeters = -0.71
         assert(arshinsToMeters(arshins) == null)
     }
 
@@ -52,13 +49,13 @@ class LengthConverterTest {
     fun testMetersToArshins() {
         val meters = 0.71
         val expectedArshins = 1.0
-        assertEquals(expectedArshins, arshinsToMeters(meters), 0.001)
+        assertEquals(expectedArshins, metersToArshins(meters), 0.001)
     }
 
     @Test
-    fun testNegativeMetresToArshins() {
+    fun testNegativeMetersToArshins() {
         val meters = -0.71
         val expectedArshins = -1.0
-        assert(arshinsToMeters(meters) == null)
+        assert(metersToArshins(meters) == null)
     }
 }
