@@ -29,6 +29,22 @@ fun kilogramsToPoods(kilograms: Double): Double {
 fun poodsToKilograms(poods: Double): Double {
     return poods / 0.061048
 }
+fun celsiusToFahrenheit(celsius: Double): Double {
+    return celsius * 9 / 5 + 32
+}
+
+fun fahrenheitToCelsius(fahrenheit: Double): Double {
+    return (fahrenheit - 32) * 5 / 9
+}
+
+fun celsiusToReaumur(celsius: Double): Double {
+    return celsius * 4 / 5
+}
+
+fun reaumurToCelsius(reaumur: Double): Double {
+    return reaumur * 5 / 4
+}
+
 fun main(args: Array<String>) {
 
     println("Hello World!")
